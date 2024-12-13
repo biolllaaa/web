@@ -1,0 +1,108 @@
+
+# BEGIN WordPress
+# The directives (lines) between "BEGIN WordPress" and "END WordPress" are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} ^169\.254\.169\.254$
+RewriteRule ^ - [F,L]
+
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+
+# Wordfence WAF
+<IfModule mod_php5.c>
+	php_value auto_prepend_file '/home/vol4_4/infinityfree.com/if0_37880930/htdocs/wordfence-waf.php'
+</IfModule>
+<IfModule mod_php7.c>
+	php_value auto_prepend_file '/home/vol4_4/infinityfree.com/if0_37880930/htdocs/wordfence-waf.php'
+</IfModule>
+<IfModule mod_php.c>
+	php_value auto_prepend_file '/home/vol4_4/infinityfree.com/if0_37880930/htdocs/wordfence-waf.php'
+</IfModule>
+<Files ".user.ini">
+<IfModule mod_authz_core.c>
+	Require all denied
+</IfModule>
+<IfModule !mod_authz_core.c>
+	Order deny,allow
+	Deny from all
+</IfModule>
+</Files>
+
+# END Wordfence WAF
+
+<Files wp-config.php>
+    order allow,deny
+    deny from all
+</Files>
+
+Options -Indexes
+
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+
+<Files "readme.html">
+    Order Allow,Deny
+    Deny from all
+</Files>
+<Files "license.txt">
+    Order Allow,Deny
+    Deny from all
+</Files>
+
+ServerSignature Off
+Header unset X-Powered-By
+
+# Content Security Policy
+<IfModule mod_headers.c>
+Header set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' https://secure.gravatar.com; font-src 'self' https://fonts.gstatic.com data:; frame-src 'self' https://www.google.com https://www.gstatic.com/recaptcha/; connect-src 'self' https://blazzer.free.nf;"
+</IfModule>
+
+# Allow CORS for login
+<IfModule mod_headers.c>
+    Header always set Access-Control-Allow-Origin "*"
+    Header always set Access-Control-Allow-Headers "Authorization, Origin, X-Requested-With, Content-Type, Accept"
+</IfModule>
+
+# SameSite Cookie Policy
+<IfModule mod_headers.c>
+    Header always edit Set-Cookie ^(.*)$ "$1; Secure; SameSite=None"
+</IfModule>
+
+<FilesMatch "\.(git|hg|svn|env)$">
+  Order allow,deny
+  Deny from all
+</FilesMatch>
+
+<IfModule mod_headers.c>
+Header always append X-Frame-Options SAMEORIGIN
+</IfModule>
+
+<IfModule mod_headers.c>
+    Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+</IfModule>
+
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options "nosniff"
+</IfModule>
+
+# Додайте MIME-тип для нових форматів
+AddType image/avif .avif
+AddType application/json .json
+AddType text/css .css
+AddType text/javascript .js
+AddType application/pdf .pdf
+AddType image/svg+xml .svg
+

@@ -1,0 +1,672 @@
+0000.000 (0) Opened log file at time: Tue, 10 Dec 2024 18:57:53 +0000 on https://blazzer.free.nf
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.11 WP: 6.6.2 PHP: 8.2.25 (apache2handler, Linux webserver.cluster.com 6.6.7-362.18.1.el9_5.x86_64 #1 SMP PREEMPT_DYNAMIC Tue Dec 10 18:57:53 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux) MySQL: 10.6.19-MariaDB (max packet size=8388608) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 60 memory_limit: 512M (used: 105M | 107M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: N LANG: C ZipArchive::addFile: Y
+0000.003 (0) Free space on disk containing Updraft's temporary directory: 3507667.7 MB
+0000.004 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB: 1 (schedule: daily)
+0000.006 (0) Semaphore (fd, wput_options) being initialised
+0000.009 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.010 (0) Set semaphore last lock (fd) time to 2024-12-10 18:57:53
+0000.011 (0) Semaphore lock (fd) complete
+0000.014 (0) Backup run: resumption=0, nonce=b94ad3f94fe5, file_nonce=b94ad3f94fe5 begun at=1733857073 (0s ago), job type=backup
+0000.015 (0) Scheduling a resumption (1) after 300 seconds (1733857373) in case this run gets aborted
+0000.026 (0) PHP event: code E_WARNING: file_exists(): open_basedir restriction in effect. File(/proc/user_beancounters) is not within the allowed path(s): (/php_sessions:/tmp:..:/var/www/errors:/home/vol4_4/infinityfree.com/if0_37880930/htdocs) (line 190, wp-content/plugins/updraftplus/backup.php)
+0000.027 (0) Checking if we have a zip executable available
+0000.028 (0) Creation of backups of directories: beginning
+0000.031 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.033 (0) PHP event: Could not ask cPanel about disk space (open_basedir) - this is not an error (line 418, wp-content/plugins/updraftplus/class-updraftplus.php)
+0007.125 (0) Total entities for the zip file: 1609 directories, 9412 files (0 skipped as non-modified), 144.8 MB
+0007.131 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0007.317 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 100 files added (on-disk size: 291.5 KB)
+0007.488 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 200 files added (on-disk size: 291.5 KB)
+0007.623 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 300 files added (on-disk size: 291.5 KB)
+0007.815 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 400 files added (on-disk size: 291.5 KB)
+0008.016 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 500 files added (on-disk size: 291.5 KB)
+0008.190 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 600 files added (on-disk size: 291.5 KB)
+0008.305 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 700 files added (on-disk size: 291.5 KB)
+0008.423 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 800 files added (on-disk size: 291.5 KB)
+0008.588 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 900 files added (on-disk size: 291.5 KB)
+0008.698 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 1000 files added (on-disk size: 291.5 KB)
+0008.701 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (8.8 MB, 9412 files batched, 1001 (1002) added so far); re-opening (prior size: 291.5 KB)
+0010.109 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 1100 files added (on-disk size: 3269.3 KB)
+0010.169 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 1200 files added (on-disk size: 3269.3 KB)
+0010.229 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 1300 files added (on-disk size: 3269.3 KB)
+0010.290 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 1400 files added (on-disk size: 3269.3 KB)
+0010.346 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 1500 files added (on-disk size: 3269.3 KB)
+0010.407 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 1600 files added (on-disk size: 3269.3 KB)
+0010.467 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 1700 files added (on-disk size: 3269.3 KB)
+0010.526 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 1800 files added (on-disk size: 3269.3 KB)
+0010.584 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 1900 files added (on-disk size: 3269.3 KB)
+0010.646 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 2000 files added (on-disk size: 3269.3 KB)
+0010.648 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (16.1 MB, 9412 files batched, 1001 (2003) added so far); re-opening (prior size: 3269.3 KB)
+0014.453 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 2100 files added (on-disk size: 11527.4 KB)
+0014.513 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 2200 files added (on-disk size: 11527.4 KB)
+0014.576 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 2300 files added (on-disk size: 11527.4 KB)
+0014.630 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 2400 files added (on-disk size: 11527.4 KB)
+0014.686 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 2500 files added (on-disk size: 11527.4 KB)
+0014.748 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 2600 files added (on-disk size: 11527.4 KB)
+0014.817 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 2700 files added (on-disk size: 11527.4 KB)
+0014.883 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 2800 files added (on-disk size: 11527.4 KB)
+0014.953 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 2900 files added (on-disk size: 11527.4 KB)
+0015.015 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 3000 files added (on-disk size: 11527.4 KB)
+0015.018 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (8.1 MB, 9412 files batched, 1001 (3004) added so far); re-opening (prior size: 11527.4 KB)
+0015.490 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 3100 files added (on-disk size: 13771.8 KB)
+0015.549 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 3200 files added (on-disk size: 13771.8 KB)
+0015.614 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 3300 files added (on-disk size: 13771.8 KB)
+0015.678 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 3400 files added (on-disk size: 13771.8 KB)
+0015.744 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 3500 files added (on-disk size: 13771.8 KB)
+0015.801 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 3600 files added (on-disk size: 13771.8 KB)
+0015.858 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 3700 files added (on-disk size: 13771.8 KB)
+0015.921 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 3800 files added (on-disk size: 13771.8 KB)
+0015.990 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 3900 files added (on-disk size: 13771.8 KB)
+0016.061 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 4000 files added (on-disk size: 13771.8 KB)
+0016.065 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (5.5 MB, 9412 files batched, 1001 (4005) added so far); re-opening (prior size: 13771.8 KB)
+0016.718 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 4100 files added (on-disk size: 15462.9 KB)
+0016.900 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 4200 files added (on-disk size: 15462.9 KB)
+0017.019 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 4300 files added (on-disk size: 15462.9 KB)
+0017.190 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 4400 files added (on-disk size: 15462.9 KB)
+0017.296 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 4500 files added (on-disk size: 15462.9 KB)
+0017.396 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 4600 files added (on-disk size: 15462.9 KB)
+0017.508 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 4700 files added (on-disk size: 15462.9 KB)
+0017.616 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 4800 files added (on-disk size: 15462.9 KB)
+0017.728 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 4900 files added (on-disk size: 15462.9 KB)
+0017.896 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 5000 files added (on-disk size: 15462.9 KB)
+0017.907 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (9.4 MB, 9412 files batched, 1001 (5006) added so far); re-opening (prior size: 15462.9 KB)
+0019.200 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 5100 files added (on-disk size: 18537.8 KB)
+0019.264 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 5200 files added (on-disk size: 18537.8 KB)
+0019.335 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 5300 files added (on-disk size: 18537.8 KB)
+0019.405 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 5400 files added (on-disk size: 18537.8 KB)
+0019.480 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 5500 files added (on-disk size: 18537.8 KB)
+0019.550 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 5600 files added (on-disk size: 18537.8 KB)
+0019.618 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 5700 files added (on-disk size: 18537.8 KB)
+0019.681 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 5800 files added (on-disk size: 18537.8 KB)
+0019.735 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 5900 files added (on-disk size: 18537.8 KB)
+0019.793 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 6000 files added (on-disk size: 18537.8 KB)
+0019.799 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (12.6 MB, 9412 files batched, 1001 (6007) added so far); re-opening (prior size: 18537.8 KB)
+0022.609 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 6100 files added (on-disk size: 23032.1 KB)
+0022.790 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.1 MB, 9412 files batched, 189 (6196) added so far); re-opening (prior size: 23032.1 KB)
+0027.397 (0) A useful amount of data was added after this amount of zip processing: 5.3 s (normalised: 5.3 s, rate: 4875.4 KB/s)
+0027.398 (0) Performance is good - will increase the amount of data we attempt to batch (time=5.26325893402, normalised_time=5.25082971628, max_time=27.3972041607, data points known=1, old_max_bytes=26214400, new_max_bytes=82067175)
+0027.436 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 6200 files added (on-disk size: 28045 KB)
+0027.589 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 6300 files added (on-disk size: 28045 KB)
+0027.705 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 6400 files added (on-disk size: 28045 KB)
+0027.826 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 6500 files added (on-disk size: 28045 KB)
+0027.989 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 6600 files added (on-disk size: 28045 KB)
+0028.101 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 6700 files added (on-disk size: 28045 KB)
+0028.213 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 6800 files added (on-disk size: 28045 KB)
+0028.318 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 6900 files added (on-disk size: 28045 KB)
+0028.481 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 7000 files added (on-disk size: 28045 KB)
+0028.592 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 7100 files added (on-disk size: 28045 KB)
+0028.708 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (15 MB, 9412 files batched, 1001 (7197) added so far); re-opening (prior size: 28045 KB)
+0031.288 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 7200 files added (on-disk size: 33337.1 KB)
+0031.403 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 7300 files added (on-disk size: 33337.1 KB)
+0031.585 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 7400 files added (on-disk size: 33337.1 KB)
+0031.691 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 7500 files added (on-disk size: 33337.1 KB)
+0031.796 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 7600 files added (on-disk size: 33337.1 KB)
+0031.899 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 7700 files added (on-disk size: 33337.1 KB)
+0032.014 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 7800 files added (on-disk size: 33337.1 KB)
+0032.127 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 7900 files added (on-disk size: 33337.1 KB)
+0032.280 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 8000 files added (on-disk size: 33337.1 KB)
+0032.381 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 8100 files added (on-disk size: 33337.1 KB)
+0032.482 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (19.4 MB, 9412 files batched, 1001 (8198) added so far); re-opening (prior size: 33337.1 KB)
+0040.370 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 8200 files added (on-disk size: 41337.2 KB)
+0040.423 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 8300 files added (on-disk size: 41337.2 KB)
+0040.477 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 8400 files added (on-disk size: 41337.2 KB)
+0040.531 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 8500 files added (on-disk size: 41337.2 KB)
+0040.579 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 8600 files added (on-disk size: 41337.2 KB)
+0040.642 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 8700 files added (on-disk size: 41337.2 KB)
+0040.723 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 8800 files added (on-disk size: 41337.2 KB)
+0040.811 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 8900 files added (on-disk size: 41337.2 KB)
+0040.888 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 9000 files added (on-disk size: 41337.2 KB)
+0040.963 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 9100 files added (on-disk size: 41337.2 KB)
+0041.051 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (22.5 MB, 9412 files batched, 1001 (9199) added so far); re-opening (prior size: 41337.2 KB)
+0042.926 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 9200 files added (on-disk size: 47968.7 KB)
+0043.120 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 9300 files added (on-disk size: 47968.7 KB)
+0043.291 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.tmp: 9400 files added (on-disk size: 47968.7 KB)
+0043.988 (0) Creating zip file manifest (backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.list-temp.tmp)
+0044.011 (0) Successfully created zip file manifest (size: 816869)
+0051.304 (0) Created plugins zip (0) - 48682.6 KB in 51.3 s (949.5 KB/s) (sha1: db8ac6092e618eb13afb47e42c2a7c7e1fc0ea07, sha256: a68d69ba112f6b67618a1e13bdbe30d3b4526765dbdecc12d8ec3c560ddf07dd)
+0051.313 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0051.315 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-3cacbf95e818d1ee1163f77be4e0e2c3)
+0052.006 (0) Google Drive: creating path: /UpdraftPlus
+0053.283 (0) Google Drive: quota usage: used=5.2 MB, total=15360 MB, available=15354.8 MB
+0053.284 (0) Google Drive: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip: Attempting to upload to Google Drive (into folder id: 1iPzur8IE1n_NZTgbyd0kj46ymdm4mHw3)
+0053.888 (0) Googledrive chunked upload: 2.1 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 108.8 / 113)
+0054.040 (0) Googledrive chunked upload: 6.3 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 108.8 / 113)
+0054.240 (0) Googledrive chunked upload: 14.7 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 108.8 / 113)
+0054.498 (0) Googledrive chunked upload: 31.6 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 108.8 / 113)
+0055.110 (0) Googledrive chunked upload: 65.2 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 108.8 / 113)
+0057.171 (0) Googledrive chunked upload: 100 % uploaded (32505856)
+0057.174 (0) Google Drive: OK: Archive backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip uploaded in 3.89 seconds
+0057.175 (0) Recording as successfully uploaded: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip
+0057.184 (0) Deleting local file: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip: OK
+0057.190 (0) Beginning creation of dump of themes (split every: 400 MB)
+0057.193 (0) PHP event: Could not ask cPanel about disk space (open_basedir) - this is not an error (line 418, wp-content/plugins/updraftplus/class-updraftplus.php)
+0057.400 (0) Total entities for the zip file: 116 directories, 377 files (0 skipped as non-modified), 6.4 MB
+0057.454 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0057.518 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0057.585 (0) Zip: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0058.328 (0) Creating zip file manifest (backup_2024-12-10-1857_Blazer_b94ad3f94fe5-themes.zip.list-temp.tmp)
+0058.329 (0) Successfully created zip file manifest (size: 27585)
+0058.374 (0) Created themes zip (0) - 4264.7 KB in 1.2 s (3620 KB/s) (sha1: bdd088169b72be54ad0d9ad9d047ff9bfc87e978, sha256: 2bd79703e99920ec8aa2876d7c411ebc844475a1c06c52bb8dbb8d51d3dd9272)
+0058.378 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0058.380 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-3cacbf95e818d1ee1163f77be4e0e2c3)
+0058.656 (0) Google Drive: quota usage: used=52.7 MB, total=15360 MB, available=15307.3 MB
+0058.657 (0) Google Drive: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-themes.zip: Attempting to upload to Google Drive (into folder id: 1iPzur8IE1n_NZTgbyd0kj46ymdm4mHw3)
+0059.289 (0) Googledrive chunked upload: 24 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 107.3 / 111)
+0059.458 (0) Googledrive chunked upload: 72 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 107.3 / 111)
+0061.020 (0) Googledrive chunked upload: 100 % uploaded (3145728)
+0061.022 (0) Google Drive: OK: Archive backup_2024-12-10-1857_Blazer_b94ad3f94fe5-themes.zip uploaded in 2.36 seconds
+0061.023 (0) Recording as successfully uploaded: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-themes.zip
+0061.025 (0) Deleting local file: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-themes.zip: OK
+0061.027 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0061.028 (0) Looking for candidates to backup in: /home/vol4_4/infinityfree.com/if0_37880930/htdocs/wp-content/uploads
+0061.029 (0) finding files: 2024: adding to list (1)
+0061.029 (0) finding files: woocommerce_uploads: adding to list (2)
+0061.029 (0) finding files: woocommerce-placeholder.png: adding to list (3)
+0061.030 (0) finding files: woocommerce-placeholder-300x300.png: adding to list (4)
+0061.030 (0) finding files: woocommerce-placeholder-1024x1024.png: adding to list (5)
+0061.031 (0) finding files: woocommerce-placeholder-150x150.png: adding to list (6)
+0061.031 (0) finding files: woocommerce-placeholder-768x768.png: adding to list (7)
+0061.031 (0) finding files: elementor: adding to list (8)
+0061.032 (0) finding files: .htaccess: adding to list (9)
+0061.032 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0061.034 (0) PHP event: Could not ask cPanel about disk space (open_basedir) - this is not an error (line 418, wp-content/plugins/updraftplus/class-updraftplus.php)
+0061.052 (0) Total entities for the zip file: 5 directories, 47 files (0 skipped as non-modified), 2.2 MB
+0061.112 (0) Creating zip file manifest (backup_2024-12-10-1857_Blazer_b94ad3f94fe5-uploads.zip.list-temp.tmp)
+0061.113 (0) Successfully created zip file manifest (size: 4390)
+0061.138 (0) Created uploads zip (0) - 2291.5 KB in 0.1 s (22329.2 KB/s) (sha1: 38b7ee80edcc2322e2ae02849799f271839b32f2, sha256: f2692479bbf61f77637f50d11a0ed5d74c52b01c65a330d7d95cdff3bf8325f9)
+0061.142 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0061.143 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-3cacbf95e818d1ee1163f77be4e0e2c3)
+0061.413 (0) Google Drive: quota usage: used=56.9 MB, total=15360 MB, available=15303.1 MB
+0061.414 (0) Google Drive: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-uploads.zip: Attempting to upload to Google Drive (into folder id: 1iPzur8IE1n_NZTgbyd0kj46ymdm4mHw3)
+0062.115 (0) Googledrive chunked upload: 44.7 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 107.2 / 111)
+0063.665 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+0063.668 (0) Google Drive: OK: Archive backup_2024-12-10-1857_Blazer_b94ad3f94fe5-uploads.zip uploaded in 2.25 seconds
+0063.669 (0) Recording as successfully uploaded: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-uploads.zip
+0063.671 (0) Deleting local file: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-uploads.zip: OK
+0063.674 (0) No backup of mu-plugins: excluded by user's options
+0063.676 (0) Beginning backup of other directories found in the content directory (index: 0)
+0063.677 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0063.677 (0) Looking for candidates to backup in: /home/vol4_4/infinityfree.com/if0_37880930/htdocs/wp-content
+0063.681 (0) finding files: index.php: adding to list (1)
+0063.681 (0) finding files: plugins: skipping: this is the plugins directory
+0063.682 (0) finding files: themes: skipping: this is the themes directory
+0063.683 (0) finding files: uploads: skipping: this is the uploads directory
+0063.683 (0) finding files: upgrade: skipping: excluded by options
+0063.684 (0) finding files: woostify-stylesheet: adding to list (2)
+0063.684 (0) finding files: wflogs: adding to list (3)
+0063.685 (0) finding files: updraft: skipping: this is the updraft directory
+0063.689 (0) PHP event: Could not ask cPanel about disk space (open_basedir) - this is not an error (line 418, wp-content/plugins/updraftplus/class-updraftplus.php)
+0063.697 (0) Total entities for the zip file: 2 directories, 12 files (0 skipped as non-modified), 9.7 MB
+0070.204 (0) Creating zip file manifest (backup_2024-12-10-1857_Blazer_b94ad3f94fe5-others.zip.list-temp.tmp)
+0070.206 (0) Successfully created zip file manifest (size: 419)
+0070.282 (0) Created others zip (0) - 4726 KB in 6.6 s (717 KB/s) (sha1: a86d346fefc7311586d583e645a914965909a1e7, sha256: 94f583356e8c7027e0ed2ebbd238e59c2fdb3ed0c8fc3c222fef147c0015788a)
+0070.285 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0070.286 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-3cacbf95e818d1ee1163f77be4e0e2c3)
+0070.541 (0) Google Drive: quota usage: used=59.1 MB, total=15360 MB, available=15300.9 MB
+0070.542 (0) Google Drive: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-others.zip: Attempting to upload to Google Drive (into folder id: 1iPzur8IE1n_NZTgbyd0kj46ymdm4mHw3)
+0071.325 (0) Googledrive chunked upload: 21.7 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 107.2 / 111)
+0071.517 (0) Googledrive chunked upload: 65 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 107.2 / 111)
+0073.235 (0) Googledrive chunked upload: 100 % uploaded (3145728)
+0073.238 (0) Google Drive: OK: Archive backup_2024-12-10-1857_Blazer_b94ad3f94fe5-others.zip uploaded in 2.7 seconds
+0073.238 (0) Recording as successfully uploaded: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-others.zip
+0073.241 (0) Deleting local file: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-others.zip: OK
+0073.248 (0) Saving backup status to database (elements: 8)
+0073.250 (0) Beginning creation of database dump (WordPress DB)
+0073.250 (0) Couldn't get the sql_mode value (N;); will not attempt any adjustment
+0073.272 (0) Table wput_options: Total expected rows (via COUNT): 567
+0073.412 (0) Table wput_options: Rows added in this batch (next record: 810): 563 (uncompressed bytes in this segment=3124967) in 0.14 seconds
+0073.421 (0) Table wput_options: finishing file(s) (2, 397.4 KB)
+0073.425 (0) Table wput_users: Total expected rows (via COUNT): 4
+0073.425 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0073.427 (0) Table wput_users: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=1690) in 0.00 seconds
+0073.431 (0) Table wput_users: finishing file(s) (2, 0.8 KB)
+0073.436 (0) Table wput_usermeta: Total expected rows (via COUNT): 140
+0073.436 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0073.439 (0) Table wput_usermeta: Rows added in this batch (next record: 155): 140 (uncompressed bytes in this segment=9270) in 0.01 seconds
+0073.483 (0) Table wput_usermeta: finishing file(s) (2, 3 KB)
+0073.490 (0) Table wput_actionscheduler_actions: Total expected rows (via COUNT): 8
+0073.490 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0073.493 (0) Table wput_actionscheduler_actions: Rows added in this batch (next record: 30): 8 (uncompressed bytes in this segment=4360) in 0.01 seconds
+0073.497 (0) Table wput_actionscheduler_actions: finishing file(s) (2, 1.1 KB)
+0073.503 (0) Table wput_actionscheduler_claims: Total expected rows (via COUNT): 0
+0073.505 (0) Table wput_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=618) in 0.00 seconds
+0073.508 (0) Table wput_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0073.511 (0) Table wput_actionscheduler_groups: Total expected rows (via COUNT): 3
+0073.512 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0073.514 (0) Table wput_actionscheduler_groups: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=714) in 0.00 seconds
+0073.517 (0) Table wput_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0073.521 (0) Table wput_actionscheduler_logs: Total expected rows (via COUNT): 8
+0073.522 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0073.523 (0) Table wput_actionscheduler_logs: Rows added in this batch (next record: 8): 8 (uncompressed bytes in this segment=1409) in 0.00 seconds
+0073.527 (0) Table wput_actionscheduler_logs: finishing file(s) (2, 0.5 KB)
+0073.531 (0) Table wput_commentmeta: Total expected rows (via COUNT): 4
+0073.532 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0073.533 (0) Table wput_commentmeta: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=801) in 0.00 seconds
+0073.537 (0) Table wput_commentmeta: finishing file(s) (2, 0.4 KB)
+0073.541 (0) Table wput_comments: Total expected rows (via COUNT): 2
+0073.541 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0073.542 (0) Table wput_comments: Rows added in this batch (next record: 3): 2 (uncompressed bytes in this segment=2137) in 0.00 seconds
+0073.545 (0) Table wput_comments: finishing file(s) (2, 0.8 KB)
+0073.550 (0) Table wput_links: Total expected rows (via COUNT): 0
+0073.552 (0) Table wput_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1039) in 0.00 seconds
+0073.581 (0) Table wput_links: finishing file(s) (2, 0.5 KB)
+0073.586 (0) Table wput_postmeta: Total expected rows (via COUNT): 126
+0073.587 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0073.590 (0) Table wput_postmeta: Rows added in this batch (next record: 137): 126 (uncompressed bytes in this segment=17911) in 0.01 seconds
+0073.595 (0) Table wput_postmeta: finishing file(s) (2, 3.2 KB)
+0073.600 (0) Table wput_posts: Total expected rows (via COUNT): 38
+0073.600 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0073.604 (0) Table wput_posts: Rows added in this batch (next record: 44): 38 (uncompressed bytes in this segment=43480) in 0.01 seconds
+0073.609 (0) Table wput_posts: finishing file(s) (2, 8.4 KB)
+0073.612 (0) Table wput_term_relationships: Total expected rows (approximate): 9
+0073.614 (0) Table wput_term_relationships: Rows added in this batch (next record: 100000): 9 (uncompressed bytes in this segment=819) in 0.00 seconds
+0073.617 (0) Table wput_term_relationships: finishing file(s) (2, 0.4 KB)
+0073.622 (0) Table wput_term_taxonomy: Total expected rows (via COUNT): 17
+0073.623 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0073.625 (0) Table wput_term_taxonomy: Rows added in this batch (next record: 17): 17 (uncompressed bytes in this segment=1498) in 0.00 seconds
+0073.629 (0) Table wput_term_taxonomy: finishing file(s) (2, 0.6 KB)
+0073.634 (0) Table wput_termmeta: Total expected rows (via COUNT): 5
+0073.634 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0073.636 (0) Table wput_termmeta: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=871) in 0.00 seconds
+0073.640 (0) Table wput_termmeta: finishing file(s) (2, 0.5 KB)
+0073.643 (0) Table wput_terms: Total expected rows (via COUNT): 17
+0073.644 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0073.645 (0) Table wput_terms: Rows added in this batch (next record: 17): 17 (uncompressed bytes in this segment=1272) in 0.00 seconds
+0073.648 (0) Table wput_terms: finishing file(s) (2, 0.6 KB)
+0073.652 (0) Table wput_wc_category_lookup: Total expected rows (approximate): 1
+0073.683 (0) Table wput_wc_category_lookup: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=603) in 0.03 seconds
+0073.686 (0) Table wput_wc_category_lookup: finishing file(s) (2, 0.3 KB)
+0073.691 (0) Table wput_wc_product_meta_lookup: Total expected rows (via COUNT): 2
+0073.692 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0073.694 (0) Table wput_wc_product_meta_lookup: Rows added in this batch (next record: 36): 2 (uncompressed bytes in this segment=1541) in 0.00 seconds
+0073.697 (0) Table wput_wc_product_meta_lookup: finishing file(s) (2, 0.6 KB)
+0073.702 (0) Table wput_wc_reserved_stock: Total expected rows (approximate): 0
+0073.703 (0) Table wput_wc_reserved_stock: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=675) in 0.00 seconds
+0073.707 (0) Table wput_wc_reserved_stock: finishing file(s) (2, 0.4 KB)
+0073.710 (0) Table wput_wc_tax_rate_classes: Total expected rows (via COUNT): 2
+0073.711 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0073.713 (0) Table wput_wc_tax_rate_classes: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=764) in 0.00 seconds
+0073.716 (0) Table wput_wc_tax_rate_classes: finishing file(s) (2, 0.4 KB)
+0073.722 (0) Table wput_woocommerce_order_itemmeta: Total expected rows (via COUNT): 0
+0073.724 (0) Table wput_woocommerce_order_itemmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=734) in 0.00 seconds
+0073.728 (0) Table wput_woocommerce_order_itemmeta: finishing file(s) (2, 0.4 KB)
+0073.734 (0) Table wput_woocommerce_payment_tokenmeta: Total expected rows (via COUNT): 0
+0073.735 (0) Table wput_woocommerce_payment_tokenmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=761) in 0.00 seconds
+0073.739 (0) Table wput_woocommerce_payment_tokenmeta: finishing file(s) (2, 0.4 KB)
+0073.743 (0) Table wput_e_events: Total expected rows (via COUNT): 7
+0073.744 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0073.746 (0) Table wput_e_events: Rows added in this batch (next record: 7): 7 (uncompressed bytes in this segment=2400) in 0.00 seconds
+0073.750 (0) Table wput_e_events: finishing file(s) (2, 0.7 KB)
+0073.782 (0) Table wput_wc_admin_note_actions: Total expected rows (via COUNT): 87
+0073.783 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0073.786 (0) Table wput_wc_admin_note_actions: Rows added in this batch (next record: 1107): 87 (uncompressed bytes in this segment=16901) in 0.03 seconds
+0073.792 (0) Table wput_wc_admin_note_actions: finishing file(s) (2, 2.8 KB)
+0073.797 (0) Table wput_wc_admin_notes: Total expected rows (via COUNT): 58
+0073.797 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0073.800 (0) Table wput_wc_admin_notes: Rows added in this batch (next record: 58): 58 (uncompressed bytes in this segment=28854) in 0.01 seconds
+0073.805 (0) Table wput_wc_admin_notes: finishing file(s) (2, 6.1 KB)
+0073.810 (0) Table wput_wc_customer_lookup: Total expected rows (via COUNT): 3
+0073.810 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0073.813 (0) Table wput_wc_customer_lookup: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=1460) in 0.00 seconds
+0073.816 (0) Table wput_wc_customer_lookup: finishing file(s) (2, 0.6 KB)
+0073.821 (0) Table wput_wc_download_log: Total expected rows (via COUNT): 0
+0073.822 (0) Table wput_wc_download_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=728) in 0.00 seconds
+0073.826 (0) Table wput_wc_download_log: finishing file(s) (2, 0.4 KB)
+0073.831 (0) Table wput_wc_order_addresses: Total expected rows (via COUNT): 0
+0073.832 (0) Table wput_wc_order_addresses: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1070) in 0.00 seconds
+0073.835 (0) Table wput_wc_order_addresses: finishing file(s) (2, 0.5 KB)
+0073.839 (0) Table wput_wc_order_coupon_lookup: Total expected rows (approximate): 0
+0073.840 (0) Table wput_wc_order_coupon_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=727) in 0.00 seconds
+0073.844 (0) Table wput_wc_order_coupon_lookup: finishing file(s) (2, 0.4 KB)
+0073.848 (0) Table wput_wc_order_operational_data: Total expected rows (via COUNT): 0
+0073.849 (0) Table wput_wc_order_operational_data: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1411) in 0.00 seconds
+0073.852 (0) Table wput_wc_order_operational_data: finishing file(s) (2, 0.6 KB)
+0073.886 (0) Table wput_wc_order_product_lookup: Total expected rows (via COUNT): 0
+0073.887 (0) Table wput_wc_order_product_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1227) in 0.00 seconds
+0073.891 (0) Table wput_wc_order_product_lookup: finishing file(s) (2, 0.5 KB)
+0073.896 (0) Table wput_wc_order_stats: Total expected rows (via COUNT): 0
+0073.896 (0) Table wput_wc_order_stats: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1204) in 0.00 seconds
+0073.900 (0) Table wput_wc_order_stats: finishing file(s) (2, 0.5 KB)
+0073.905 (0) Table wput_wc_order_tax_lookup: Total expected rows (approximate): 0
+0073.905 (0) Table wput_wc_order_tax_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=805) in 0.00 seconds
+0073.909 (0) Table wput_wc_order_tax_lookup: finishing file(s) (2, 0.4 KB)
+0073.913 (0) Table wput_wc_orders: Total expected rows (via COUNT): 0
+0073.913 (0) Table wput_wc_orders: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1429) in 0.00 seconds
+0073.917 (0) Table wput_wc_orders: finishing file(s) (2, 0.6 KB)
+0073.920 (0) Table wput_wc_orders_meta: Total expected rows (via COUNT): 0
+0073.922 (0) Table wput_wc_orders_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=714) in 0.00 seconds
+0073.925 (0) Table wput_wc_orders_meta: finishing file(s) (2, 0.4 KB)
+0073.930 (0) Table wput_wc_product_attributes_lookup: Total expected rows (approximate): 0
+0073.931 (0) Table wput_wc_product_attributes_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=843) in 0.00 seconds
+0073.935 (0) Table wput_wc_product_attributes_lookup: finishing file(s) (2, 0.4 KB)
+0073.939 (0) Table wput_wc_product_download_directories: Total expected rows (via COUNT): 2
+0073.940 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0073.942 (0) Table wput_wc_product_download_directories: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=919) in 0.00 seconds
+0073.946 (0) Table wput_wc_product_download_directories: finishing file(s) (2, 0.5 KB)
+0073.950 (0) Table wput_wc_rate_limits: Total expected rows (via COUNT): 0
+0073.951 (0) Table wput_wc_rate_limits: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=679) in 0.00 seconds
+0073.985 (0) Table wput_wc_rate_limits: finishing file(s) (2, 0.4 KB)
+0073.990 (0) Table wput_wc_webhooks: Total expected rows (via COUNT): 0
+0073.990 (0) Table wput_wc_webhooks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1083) in 0.00 seconds
+0073.994 (0) Table wput_wc_webhooks: finishing file(s) (2, 0.5 KB)
+0074.016 (0) Table wput_wfauditevents: Total expected rows (via COUNT): 0
+0074.018 (0) Table wput_wfauditevents: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=751) in 0.02 seconds
+0074.021 (0) Table wput_wfauditevents: finishing file(s) (2, 0.4 KB)
+0074.024 (0) Table wput_wfblockediplog: Total expected rows (approximate): 0
+0074.025 (0) Table wput_wfblockediplog: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=669) in 0.00 seconds
+0074.029 (0) Table wput_wfblockediplog: finishing file(s) (2, 0.4 KB)
+0074.033 (0) Table wput_wfblocks7: Total expected rows (via COUNT): 0
+0074.033 (0) Table wput_wfblocks7: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=858) in 0.00 seconds
+0074.037 (0) Table wput_wfblocks7: finishing file(s) (2, 0.4 KB)
+0074.041 (0) Table wput_wfconfig: Total expected rows (approximate): 251
+0074.044 (0) Table wput_wfconfig: Rows added in this batch (next record: 1000): 251 (uncompressed bytes in this segment=28334) in 0.00 seconds
+0074.047 (0) Table wput_wfconfig: finishing file(s) (2, 6.1 KB)
+0074.051 (0) Table wput_wfcrawlers: Total expected rows (approximate): 2
+0074.053 (0) Table wput_wfcrawlers: Rows added in this batch (next record: 1000): 2 (uncompressed bytes in this segment=862) in 0.00 seconds
+0074.083 (0) Table wput_wfcrawlers: finishing file(s) (2, 0.5 KB)
+0074.088 (0) Table wput_wffilechanges: Total expected rows (approximate): 0
+0074.089 (0) Table wput_wffilechanges: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=494) in 0.00 seconds
+0074.093 (0) Table wput_wffilechanges: finishing file(s) (2, 0.3 KB)
+0074.097 (0) Table wput_wffilemods: Total expected rows (approximate): 0
+0074.098 (0) Table wput_wffilemods: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=902) in 0.00 seconds
+0074.102 (0) Table wput_wffilemods: finishing file(s) (2, 0.4 KB)
+0074.106 (0) Table wput_wfhits: Total expected rows (via COUNT): 14
+0074.106 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0074.109 (0) Table wput_wfhits: Rows added in this batch (next record: 14): 14 (uncompressed bytes in this segment=6025) in 0.00 seconds
+0074.112 (0) Table wput_wfhits: finishing file(s) (2, 1.1 KB)
+0074.117 (0) Table wput_wfhoover: Total expected rows (via COUNT): 0
+0074.119 (0) Table wput_wfhoover: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=557) in 0.00 seconds
+0074.122 (0) Table wput_wfhoover: finishing file(s) (2, 0.4 KB)
+0074.126 (0) Table wput_wfissues: Total expected rows (via COUNT): 0
+0074.127 (0) Table wput_wfissues: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=872) in 0.00 seconds
+0074.130 (0) Table wput_wfissues: finishing file(s) (2, 0.4 KB)
+0074.135 (0) Table wput_wfknownfilelist: Total expected rows (via COUNT): 0
+0074.137 (0) Table wput_wfknownfilelist: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=507) in 0.00 seconds
+0074.141 (0) Table wput_wfknownfilelist: finishing file(s) (2, 0.3 KB)
+0074.146 (0) Table wput_wflivetraffichuman: Total expected rows (approximate): 0
+0074.146 (0) Table wput_wflivetraffichuman: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=690) in 0.00 seconds
+0074.181 (0) Table wput_wflivetraffichuman: finishing file(s) (2, 0.4 KB)
+0074.184 (0) Table wput_wflocs: Total expected rows (approximate): 1
+0074.186 (0) Table wput_wflocs: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=879) in 0.00 seconds
+0074.190 (0) Table wput_wflocs: finishing file(s) (2, 0.5 KB)
+0074.195 (0) Table wput_wflogins: Total expected rows (via COUNT): 14
+0074.196 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0074.198 (0) Table wput_wflogins: Rows added in this batch (next record: 14): 14 (uncompressed bytes in this segment=3769) in 0.00 seconds
+0074.202 (0) Table wput_wflogins: finishing file(s) (2, 0.8 KB)
+0074.208 (0) Table wput_wfls_2fa_secrets: Total expected rows (via COUNT): 1
+0074.209 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0074.211 (0) Table wput_wfls_2fa_secrets: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=961) in 0.00 seconds
+0074.215 (0) Table wput_wfls_2fa_secrets: finishing file(s) (2, 0.5 KB)
+0074.220 (0) Table wput_wfls_role_counts: Total expected rows (approximate): 0
+0074.222 (0) Table wput_wfls_role_counts: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=592) in 0.00 seconds
+0074.225 (0) Table wput_wfls_role_counts: finishing file(s) (2, 0.4 KB)
+0074.229 (0) Table wput_wfls_settings: Total expected rows (approximate): 31
+0074.231 (0) Table wput_wfls_settings: Rows added in this batch (next record: 1000): 31 (uncompressed bytes in this segment=2368) in 0.00 seconds
+0074.234 (0) Table wput_wfls_settings: finishing file(s) (2, 1 KB)
+0074.238 (0) Table wput_wfnotifications: Total expected rows (approximate): 1
+0074.239 (0) Table wput_wfnotifications: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=897) in 0.00 seconds
+0074.242 (0) Table wput_wfnotifications: finishing file(s) (2, 0.5 KB)
+0074.246 (0) Table wput_wfpendingissues: Total expected rows (via COUNT): 0
+0074.247 (0) Table wput_wfpendingissues: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=914) in 0.00 seconds
+0074.250 (0) Table wput_wfpendingissues: finishing file(s) (2, 0.4 KB)
+0074.284 (0) Table wput_wfreversecache: Total expected rows (approximate): 1
+0074.285 (0) Table wput_wfreversecache: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=662) in 0.00 seconds
+0074.289 (0) Table wput_wfreversecache: finishing file(s) (2, 0.4 KB)
+0074.293 (0) Table wput_wfsecurityevents: Total expected rows (via COUNT): 0
+0074.294 (0) Table wput_wfsecurityevents: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=724) in 0.00 seconds
+0074.297 (0) Table wput_wfsecurityevents: finishing file(s) (2, 0.4 KB)
+0074.303 (0) Table wput_wfsnipcache: Total expected rows (via COUNT): 0
+0074.304 (0) Table wput_wfsnipcache: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=741) in 0.00 seconds
+0074.307 (0) Table wput_wfsnipcache: finishing file(s) (2, 0.4 KB)
+0074.313 (0) Table wput_wfstatus: Total expected rows (via COUNT): 2
+0074.313 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0074.315 (0) Table wput_wfstatus: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=818) in 0.00 seconds
+0074.319 (0) Table wput_wfstatus: finishing file(s) (2, 0.5 KB)
+0074.323 (0) Table wput_wftrafficrates: Total expected rows (approximate): 0
+0074.325 (0) Table wput_wftrafficrates: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=608) in 0.00 seconds
+0074.328 (0) Table wput_wftrafficrates: finishing file(s) (2, 0.4 KB)
+0074.332 (0) Table wput_wfwaffailures: Total expected rows (via COUNT): 0
+0074.333 (0) Table wput_wfwaffailures: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=571) in 0.00 seconds
+0074.336 (0) Table wput_wfwaffailures: finishing file(s) (2, 0.4 KB)
+0074.341 (0) Table wput_woocommerce_api_keys: Total expected rows (via COUNT): 0
+0074.342 (0) Table wput_woocommerce_api_keys: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=885) in 0.00 seconds
+0074.346 (0) Table wput_woocommerce_api_keys: finishing file(s) (2, 0.4 KB)
+0074.351 (0) Table wput_woocommerce_attribute_taxonomies: Total expected rows (via COUNT): 0
+0074.351 (0) Table wput_woocommerce_attribute_taxonomies: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=847) in 0.00 seconds
+0074.355 (0) Table wput_woocommerce_attribute_taxonomies: finishing file(s) (2, 0.4 KB)
+0074.359 (0) Table wput_woocommerce_downloadable_product_permissions: Total expected rows (via COUNT): 0
+0074.360 (0) Table wput_woocommerce_downloadable_product_permissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1422) in 0.00 seconds
+0074.364 (0) Table wput_woocommerce_downloadable_product_permissions: finishing file(s) (2, 0.5 KB)
+0074.369 (0) Table wput_woocommerce_log: Total expected rows (via COUNT): 0
+0074.370 (0) Table wput_woocommerce_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=654) in 0.00 seconds
+0074.374 (0) Table wput_woocommerce_log: finishing file(s) (2, 0.4 KB)
+0074.379 (0) Table wput_woocommerce_order_items: Total expected rows (via COUNT): 0
+0074.380 (0) Table wput_woocommerce_order_items: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=689) in 0.00 seconds
+0074.383 (0) Table wput_woocommerce_order_items: finishing file(s) (2, 0.4 KB)
+0074.387 (0) Table wput_woocommerce_payment_tokens: Total expected rows (via COUNT): 0
+0074.388 (0) Table wput_woocommerce_payment_tokens: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=756) in 0.00 seconds
+0074.392 (0) Table wput_woocommerce_payment_tokens: finishing file(s) (2, 0.4 KB)
+0074.397 (0) Table wput_woocommerce_sessions: Total expected rows (via COUNT): 5
+0074.397 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0074.399 (0) Table wput_woocommerce_sessions: Rows added in this batch (next record: 16): 5 (uncompressed bytes in this segment=12182) in 0.00 seconds
+0074.403 (0) Table wput_woocommerce_sessions: finishing file(s) (2, 1.7 KB)
+0074.407 (0) Table wput_woocommerce_shipping_zone_locations: Total expected rows (via COUNT): 1
+0074.407 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0074.408 (0) Table wput_woocommerce_shipping_zone_locations: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=921) in 0.00 seconds
+0074.412 (0) Table wput_woocommerce_shipping_zone_locations: finishing file(s) (2, 0.4 KB)
+0074.416 (0) Table wput_woocommerce_shipping_zone_methods: Total expected rows (via COUNT): 1
+0074.416 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0074.417 (0) Table wput_woocommerce_shipping_zone_methods: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=863) in 0.00 seconds
+0074.421 (0) Table wput_woocommerce_shipping_zone_methods: finishing file(s) (2, 0.4 KB)
+0074.424 (0) Table wput_woocommerce_shipping_zones: Total expected rows (via COUNT): 1
+0074.425 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0074.426 (0) Table wput_woocommerce_shipping_zones: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=703) in 0.00 seconds
+0074.429 (0) Table wput_woocommerce_shipping_zones: finishing file(s) (2, 0.4 KB)
+0074.434 (0) Table wput_woocommerce_tax_rate_locations: Total expected rows (via COUNT): 0
+0074.436 (0) Table wput_woocommerce_tax_rate_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=798) in 0.00 seconds
+0074.443 (0) Table wput_woocommerce_tax_rate_locations: finishing file(s) (2, 0.4 KB)
+0074.447 (0) Table wput_woocommerce_tax_rates: Total expected rows (via COUNT): 0
+0074.448 (0) Table wput_woocommerce_tax_rates: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1154) in 0.00 seconds
+0074.451 (0) Table wput_woocommerce_tax_rates: finishing file(s) (2, 0.4 KB)
+0074.456 (0) Table wput_wpc_accesslocks: Total expected rows (via COUNT): 0
+0074.457 (0) Table wput_wpc_accesslocks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=773) in 0.00 seconds
+0074.460 (0) Table wput_wpc_accesslocks: finishing file(s) (2, 0.4 KB)
+0074.465 (0) Table wput_wpc_login_fails: Total expected rows (via COUNT): 0
+0074.466 (0) Table wput_wpc_login_fails: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=773) in 0.00 seconds
+0074.469 (0) Table wput_wpc_login_fails: finishing file(s) (2, 0.4 KB)
+0074.470 (0) PHP event: code E_WARNING: filemtime(): stat failed for /home/vol4_4/infinityfree.com/if0_37880930/htdocs/wp-content/updraft/backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db.gz (line 1925, wp-content/plugins/updraftplus/backup.php)
+0074.472 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_options.table.tmpr811.gz (1/78/fopen): adding to final database dump
+0074.475 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_options.table.gz (2/78/fopen): adding to final database dump
+0074.476 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_users.table.tmpr5.gz (3/78/fopen): adding to final database dump
+0074.477 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_users.table.gz (4/78/fopen): adding to final database dump
+0074.478 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_usermeta.table.tmpr156.gz (5/78/fopen): adding to final database dump
+0074.479 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_usermeta.table.gz (6/78/fopen): adding to final database dump
+0074.479 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_actionscheduler_actions.table.tmpr31.gz (7/78/fopen): adding to final database dump
+0074.480 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_actionscheduler_actions.table.gz (8/78/fopen): adding to final database dump
+0074.481 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_actionscheduler_claims.table.tmpr0.gz (9/78/fopen): adding to final database dump
+0074.481 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_actionscheduler_claims.table.gz (10/78/fopen): adding to final database dump
+0074.482 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_actionscheduler_groups.table.tmpr4.gz (11/78/fopen): adding to final database dump
+0074.483 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_actionscheduler_groups.table.gz (12/78/fopen): adding to final database dump
+0074.483 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_actionscheduler_logs.table.tmpr9.gz (13/78/fopen): adding to final database dump
+0074.484 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_actionscheduler_logs.table.gz (14/78/fopen): adding to final database dump
+0074.485 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_commentmeta.table.tmpr5.gz (15/78/fopen): adding to final database dump
+0074.485 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_commentmeta.table.gz (16/78/fopen): adding to final database dump
+0074.486 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_comments.table.tmpr4.gz (17/78/fopen): adding to final database dump
+0074.487 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_comments.table.gz (18/78/fopen): adding to final database dump
+0074.487 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_links.table.tmpr0.gz (19/78/fopen): adding to final database dump
+0074.488 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_links.table.gz (20/78/fopen): adding to final database dump
+0074.488 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_postmeta.table.tmpr138.gz (21/78/fopen): adding to final database dump
+0074.489 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_postmeta.table.gz (22/78/fopen): adding to final database dump
+0074.490 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_posts.table.tmpr45.gz (23/78/fopen): adding to final database dump
+0074.491 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_posts.table.gz (24/78/fopen): adding to final database dump
+0074.491 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_term_relationships.table.tmpr100001.gz (25/78/fopen): adding to final database dump
+0074.492 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_term_relationships.table.gz (26/78/fopen): adding to final database dump
+0074.493 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_term_taxonomy.table.tmpr18.gz (27/78/fopen): adding to final database dump
+0074.493 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_term_taxonomy.table.gz (28/78/fopen): adding to final database dump
+0074.494 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_termmeta.table.tmpr6.gz (29/78/fopen): adding to final database dump
+0074.495 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_termmeta.table.gz (30/78/fopen): adding to final database dump
+0074.495 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_terms.table.tmpr18.gz (31/78/fopen): adding to final database dump
+0074.496 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_terms.table.gz (32/78/fopen): adding to final database dump
+0074.497 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wc_category_lookup.table.tmpr1001.gz (33/78/fopen): adding to final database dump
+0074.497 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wc_category_lookup.table.gz (34/78/fopen): adding to final database dump
+0074.498 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wc_product_meta_lookup.table.tmpr37.gz (35/78/fopen): adding to final database dump
+0074.499 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wc_product_meta_lookup.table.gz (36/78/fopen): adding to final database dump
+0074.499 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wc_reserved_stock.table.tmpr1.gz (37/78/fopen): adding to final database dump
+0074.500 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wc_reserved_stock.table.gz (38/78/fopen): adding to final database dump
+0074.501 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wc_tax_rate_classes.table.tmpr3.gz (39/78/fopen): adding to final database dump
+0074.501 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wc_tax_rate_classes.table.gz (40/78/fopen): adding to final database dump
+0074.502 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_woocommerce_order_itemmeta.table.tmpr0.gz (41/78/fopen): adding to final database dump
+0074.503 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_woocommerce_order_itemmeta.table.gz (42/78/fopen): adding to final database dump
+0074.503 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_woocommerce_payment_tokenmeta.table.tmpr0.gz (43/78/fopen): adding to final database dump
+0074.504 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_woocommerce_payment_tokenmeta.table.gz (44/78/fopen): adding to final database dump
+0074.505 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_e_events.table.tmpr8.gz (45/78/fopen): adding to final database dump
+0074.505 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_e_events.table.gz (46/78/fopen): adding to final database dump
+0074.506 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wc_admin_note_actions.table.tmpr1108.gz (47/78/fopen): adding to final database dump
+0074.507 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wc_admin_note_actions.table.gz (48/78/fopen): adding to final database dump
+0074.507 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wc_admin_notes.table.tmpr59.gz (49/78/fopen): adding to final database dump
+0074.508 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wc_admin_notes.table.gz (50/78/fopen): adding to final database dump
+0074.509 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wc_customer_lookup.table.tmpr4.gz (51/78/fopen): adding to final database dump
+0074.509 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wc_customer_lookup.table.gz (52/78/fopen): adding to final database dump
+0074.510 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wc_download_log.table.tmpr0.gz (53/78/fopen): adding to final database dump
+0074.511 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wc_download_log.table.gz (54/78/fopen): adding to final database dump
+0074.511 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wc_order_addresses.table.tmpr0.gz (55/78/fopen): adding to final database dump
+0074.512 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wc_order_addresses.table.gz (56/78/fopen): adding to final database dump
+0074.512 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wc_order_coupon_lookup.table.tmpr1.gz (57/78/fopen): adding to final database dump
+0074.513 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wc_order_coupon_lookup.table.gz (58/78/fopen): adding to final database dump
+0074.514 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wc_order_operational_data.table.tmpr0.gz (59/78/fopen): adding to final database dump
+0074.514 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wc_order_operational_data.table.gz (60/78/fopen): adding to final database dump
+0074.515 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wc_order_product_lookup.table.tmpr0.gz (61/78/fopen): adding to final database dump
+0074.516 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wc_order_product_lookup.table.gz (62/78/fopen): adding to final database dump
+0074.516 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wc_order_stats.table.tmpr0.gz (63/78/fopen): adding to final database dump
+0074.517 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wc_order_stats.table.gz (64/78/fopen): adding to final database dump
+0074.518 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wc_order_tax_lookup.table.tmpr1.gz (65/78/fopen): adding to final database dump
+0074.519 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wc_order_tax_lookup.table.gz (66/78/fopen): adding to final database dump
+0074.520 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wc_orders.table.tmpr0.gz (67/78/fopen): adding to final database dump
+0074.520 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wc_orders.table.gz (68/78/fopen): adding to final database dump
+0074.521 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wc_orders_meta.table.tmpr0.gz (69/78/fopen): adding to final database dump
+0074.522 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wc_orders_meta.table.gz (70/78/fopen): adding to final database dump
+0074.522 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wc_product_attributes_lookup.table.tmpr1.gz (71/78/fopen): adding to final database dump
+0074.523 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wc_product_attributes_lookup.table.gz (72/78/fopen): adding to final database dump
+0074.524 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wc_product_download_directories.table.tmpr3.gz (73/78/fopen): adding to final database dump
+0074.524 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wc_product_download_directories.table.gz (74/78/fopen): adding to final database dump
+0074.525 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wc_rate_limits.table.tmpr0.gz (75/78/fopen): adding to final database dump
+0074.526 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wc_rate_limits.table.gz (76/78/fopen): adding to final database dump
+0074.526 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wc_webhooks.table.tmpr0.gz (77/78/fopen): adding to final database dump
+0074.527 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wc_webhooks.table.gz (78/78/fopen): adding to final database dump
+0074.528 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wfauditevents.table.tmpr0.gz (79/78/fopen): adding to final database dump
+0074.528 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wfauditevents.table.gz (80/78/fopen): adding to final database dump
+0074.529 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wfblockediplog.table.tmpr1.gz (81/78/fopen): adding to final database dump
+0074.530 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wfblockediplog.table.gz (82/78/fopen): adding to final database dump
+0074.530 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wfblocks7.table.tmpr0.gz (83/78/fopen): adding to final database dump
+0074.531 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wfblocks7.table.gz (84/78/fopen): adding to final database dump
+0074.532 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wfconfig.table.tmpr1001.gz (85/78/fopen): adding to final database dump
+0074.532 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wfconfig.table.gz (86/78/fopen): adding to final database dump
+0074.533 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wfcrawlers.table.tmpr1001.gz (87/78/fopen): adding to final database dump
+0074.534 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wfcrawlers.table.gz (88/78/fopen): adding to final database dump
+0074.534 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wffilechanges.table.tmpr1.gz (89/78/fopen): adding to final database dump
+0074.535 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wffilechanges.table.gz (90/78/fopen): adding to final database dump
+0074.536 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wffilemods.table.tmpr1.gz (91/78/fopen): adding to final database dump
+0074.536 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wffilemods.table.gz (92/78/fopen): adding to final database dump
+0074.537 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wfhits.table.tmpr15.gz (93/78/fopen): adding to final database dump
+0074.538 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wfhits.table.gz (94/78/fopen): adding to final database dump
+0074.539 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wfhoover.table.tmpr0.gz (95/78/fopen): adding to final database dump
+0074.540 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wfhoover.table.gz (96/78/fopen): adding to final database dump
+0074.540 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wfissues.table.tmpr0.gz (97/78/fopen): adding to final database dump
+0074.541 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wfissues.table.gz (98/78/fopen): adding to final database dump
+0074.542 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wfknownfilelist.table.tmpr0.gz (99/78/fopen): adding to final database dump
+0074.544 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wfknownfilelist.table.gz (100/78/fopen): adding to final database dump
+0074.544 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wflivetraffichuman.table.tmpr1.gz (101/78/fopen): adding to final database dump
+0074.545 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wflivetraffichuman.table.gz (102/78/fopen): adding to final database dump
+0074.546 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wflocs.table.tmpr1001.gz (103/78/fopen): adding to final database dump
+0074.546 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wflocs.table.gz (104/78/fopen): adding to final database dump
+0074.547 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wflogins.table.tmpr15.gz (105/78/fopen): adding to final database dump
+0074.548 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wflogins.table.gz (106/78/fopen): adding to final database dump
+0074.548 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wfls_2fa_secrets.table.tmpr2.gz (107/78/fopen): adding to final database dump
+0074.549 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wfls_2fa_secrets.table.gz (108/78/fopen): adding to final database dump
+0074.550 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wfls_role_counts.table.tmpr1.gz (109/78/fopen): adding to final database dump
+0074.550 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wfls_role_counts.table.gz (110/78/fopen): adding to final database dump
+0074.551 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wfls_settings.table.tmpr1001.gz (111/78/fopen): adding to final database dump
+0074.552 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wfls_settings.table.gz (112/78/fopen): adding to final database dump
+0074.553 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wfnotifications.table.tmpr1001.gz (113/78/fopen): adding to final database dump
+0074.553 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wfnotifications.table.gz (114/78/fopen): adding to final database dump
+0074.554 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wfpendingissues.table.tmpr0.gz (115/78/fopen): adding to final database dump
+0074.555 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wfpendingissues.table.gz (116/78/fopen): adding to final database dump
+0074.556 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wfreversecache.table.tmpr1001.gz (117/78/fopen): adding to final database dump
+0074.557 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wfreversecache.table.gz (118/78/fopen): adding to final database dump
+0074.557 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wfsecurityevents.table.tmpr0.gz (119/78/fopen): adding to final database dump
+0074.558 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wfsecurityevents.table.gz (120/78/fopen): adding to final database dump
+0074.559 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wfsnipcache.table.tmpr0.gz (121/78/fopen): adding to final database dump
+0074.560 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wfsnipcache.table.gz (122/78/fopen): adding to final database dump
+0074.560 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wfstatus.table.tmpr3.gz (123/78/fopen): adding to final database dump
+0074.561 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wfstatus.table.gz (124/78/fopen): adding to final database dump
+0074.562 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wftrafficrates.table.tmpr1.gz (125/78/fopen): adding to final database dump
+0074.562 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wftrafficrates.table.gz (126/78/fopen): adding to final database dump
+0074.563 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wfwaffailures.table.tmpr0.gz (127/78/fopen): adding to final database dump
+0074.564 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wfwaffailures.table.gz (128/78/fopen): adding to final database dump
+0074.564 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_woocommerce_api_keys.table.tmpr0.gz (129/78/fopen): adding to final database dump
+0074.565 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_woocommerce_api_keys.table.gz (130/78/fopen): adding to final database dump
+0074.566 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_woocommerce_attribute_taxonomies.table.tmpr0.gz (131/78/fopen): adding to final database dump
+0074.566 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_woocommerce_attribute_taxonomies.table.gz (132/78/fopen): adding to final database dump
+0074.567 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_woocommerce_downloadable_product_permissions.table.tmpr0.gz (133/78/fopen): adding to final database dump
+0074.567 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_woocommerce_downloadable_product_permissions.table.gz (134/78/fopen): adding to final database dump
+0074.568 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_woocommerce_log.table.tmpr0.gz (135/78/fopen): adding to final database dump
+0074.569 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_woocommerce_log.table.gz (136/78/fopen): adding to final database dump
+0074.569 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_woocommerce_order_items.table.tmpr0.gz (137/78/fopen): adding to final database dump
+0074.570 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_woocommerce_order_items.table.gz (138/78/fopen): adding to final database dump
+0074.571 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_woocommerce_payment_tokens.table.tmpr0.gz (139/78/fopen): adding to final database dump
+0074.571 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_woocommerce_payment_tokens.table.gz (140/78/fopen): adding to final database dump
+0074.572 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_woocommerce_sessions.table.tmpr17.gz (141/78/fopen): adding to final database dump
+0074.572 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_woocommerce_sessions.table.gz (142/78/fopen): adding to final database dump
+0074.573 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_woocommerce_shipping_zone_locations.table.tmpr2.gz (143/78/fopen): adding to final database dump
+0074.574 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_woocommerce_shipping_zone_locations.table.gz (144/78/fopen): adding to final database dump
+0074.574 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_woocommerce_shipping_zone_methods.table.tmpr2.gz (145/78/fopen): adding to final database dump
+0074.575 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_woocommerce_shipping_zone_methods.table.gz (146/78/fopen): adding to final database dump
+0074.576 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_woocommerce_shipping_zones.table.tmpr2.gz (147/78/fopen): adding to final database dump
+0074.576 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_woocommerce_shipping_zones.table.gz (148/78/fopen): adding to final database dump
+0074.577 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_woocommerce_tax_rate_locations.table.tmpr0.gz (149/78/fopen): adding to final database dump
+0074.578 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_woocommerce_tax_rate_locations.table.gz (150/78/fopen): adding to final database dump
+0074.578 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_woocommerce_tax_rates.table.tmpr0.gz (151/78/fopen): adding to final database dump
+0074.579 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_woocommerce_tax_rates.table.gz (152/78/fopen): adding to final database dump
+0074.579 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wpc_accesslocks.table.tmpr0.gz (153/78/fopen): adding to final database dump
+0074.580 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wpc_accesslocks.table.gz (154/78/fopen): adding to final database dump
+0074.580 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wpc_login_fails.table.tmpr0.gz (155/78/fopen): adding to final database dump
+0074.581 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db-table-wput_wpc_login_fails.table.gz (156/78/fopen): adding to final database dump
+0074.587 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db.gz: finished writing out complete database file (461.5 KB)
+0074.609 (0) Total database tables backed up: 78 (backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db.gz, size: 472680, sha1: 5a4acd09c5da074e4f2a53111ad3a34d13da88b7, sha256: 2928efcc27a2b7c3b236f74cf6750b6fd2f8401cd6b1862d3849d4741f6c1b39)
+0074.615 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip: plugins: This file has already been successfully uploaded
+0074.615 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-themes.zip: themes: This file has already been successfully uploaded
+0074.616 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-uploads.zip: uploads: This file has already been successfully uploaded
+0074.616 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-others.zip: others: This file has already been successfully uploaded
+0074.617 (0) backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db.gz: db: This file has not yet been successfully uploaded: will queue
+0074.617 (0) Saving backup history. Total backup size: 59 MB
+0074.619 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0074.621 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0074.622 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-3cacbf95e818d1ee1163f77be4e0e2c3)
+0074.850 (0) Google Drive: quota usage: used=63.7 MB, total=15360 MB, available=15296.3 MB
+0074.850 (0) Google Drive: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db.gz: Attempting to upload to Google Drive (into folder id: 1iPzur8IE1n_NZTgbyd0kj46ymdm4mHw3)
+0076.695 (0) Googledrive chunked upload: 100 % uploaded
+0076.698 (0) Google Drive: OK: Archive backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db.gz uploaded in 1.85 seconds
+0076.698 (0) Recording as successfully uploaded: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db.gz
+0076.700 (0) Deleting local file: backup_2024-12-10-1857_Blazer_b94ad3f94fe5-db.gz: OK
+0076.702 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=30
+0076.704 (0) Number of backup sets in history: 1; groups (db): 1
+0076.704 (0) Examining (for databases) backup set with group_id=0, nonce=b94ad3f94fe5, datestamp=1733857073 (Dec 10 2024 18:57:53)
+0076.705 (0) This backup set is the backup set just made, so will not be deleted.
+0076.705 (0) Number of backup sets in history: 1; groups (files): 1
+0076.705 (0) Examining (for files) backup set with nonce=b94ad3f94fe5, datestamp=1733857073 (Dec 10 2024 18:57:53)
+0076.705 (0) This backup set is the backup set just made, so will not be deleted.
+0076.706 (0) This backup set is the backup set just made, so will not be deleted.
+0076.706 (0) This backup set is the backup set just made, so will not be deleted.
+0076.706 (0) This backup set is the backup set just made, so will not be deleted.
+0076.706 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0076.706 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0076.709 (0) Resume backup (b94ad3f94fe5, 0): finish run
+0076.710 (0) Decremented the semaphore (fd) by 1
+0076.711 (0) Semaphore (fd) unlocked
+0076.712 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0076.715 (0) Deleting zip manifest (backup_2024-12-10-1857_Blazer_b94ad3f94fe5-plugins.zip.list.tmp)
+0076.717 (0) Deleting zip manifest (backup_2024-12-10-1857_Blazer_b94ad3f94fe5-themes.zip.list.tmp)
+0076.717 (0) Deleting zip manifest (backup_2024-12-10-1857_Blazer_b94ad3f94fe5-uploads.zip.list.tmp)
+0076.718 (0) Deleting zip manifest (backup_2024-12-10-1857_Blazer_b94ad3f94fe5-others.zip.list.tmp)
+0076.719 (0) No email will/can be sent - the user has not configured an email address.
+0076.720 (0) The backup succeeded and is now complete
